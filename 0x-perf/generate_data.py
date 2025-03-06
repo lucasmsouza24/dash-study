@@ -8,7 +8,7 @@ periods = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out",
 exp_or_imp = ["Exportação", "Importação"]
 
 # Gerar 50 linhas de dados
-data_quantity = 500000 * 2
+data_quantity = 100
 
 data = {
     "Country": [random.choice(countries) for _ in range(data_quantity)],
